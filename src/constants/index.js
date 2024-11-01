@@ -94,12 +94,11 @@ export const brainwaveServicesIcons = [
 export const roadmap = [
   {
     id: "0",
-    title: "Launch Bundler Snipers",
+    title: "Pumpfun Bundler Sniper",
     text: [
-      "Protect your launch from predatory snipers by securing supply at launch",
-      "Launch and Snipe your launch with 24 different wallets instantly on launch",
-     "Launch on Pump.fun, Raydium, Uniswap and more.",
-     "Manage bought tokens easily in all wallets through the swap manager"
+     "Launch on PumpFun and Snipe your launch with 25 different wallets instantly on launch",
+     "Launch with advanced strategies i.e Block 0 Launch, Organic Launch, Swarm Launch",
+     "Avoid detection on Photon/BullX"
     ],
     date: "May 2023",
     status: "done",
@@ -107,12 +106,25 @@ export const roadmap = [
     colorful: true,
   },
   {
-    id: "1",
-    title: "Rank Boosters",
+    id: "2",
+    title: "Multi-Wallet Trader",
     text: [
-      "Boost your ranking on Dexscreener by adding volume to your token on Raydium and Uniswap",
-      "Rank is boosted by optimising for volume, holders, buy/sell ratio and more",
-      "Volume is added by 1000's of wallets appearing like natural volume"
+      "ONLY TOOL in the market. BUNDLE BUY and BUNDLE SELL with 25 wallets at once on PumpFun and Raydium",
+      "Trade with individual wallets or all wallets at once",
+      "Perfect for - accumulate tokens to CTO, hold the floor or exit your position",
+    ],
+    date: "May 2023",
+    status: "done",
+    imageUrl: roadmap3,
+    colorful: true,
+  },
+  {
+    id: "1",
+    title: "PumpFun Bump Bot",
+    text: [
+      "Advanced BumpBot features - Start, Stop, Withdraw SOL at any time",
+      "Boost your token to top of Photon and BullX trending",
+      "Stay at top of PumpFun Bump Order",
     ],
     date: "May 2023",
     status: "progress",
@@ -121,25 +133,11 @@ export const roadmap = [
 
   },
   {
-    id: "2",
-    title: "Swap Manager",
-    text: [
-      "Buy and Sell tokens with upto 24 wallets at once instantly on PumpFun, Raydium, Uniswap etc.",
-      "Trade with individual wallets or all wallets at once",
-      "Perfect to accumulate tokens to CTO or hold the floor",
-    ],
-    date: "May 2023",
-    status: "done",
-    imageUrl: roadmap3,
-    colorful: true,
-
-  },
-  {
     id: "3",
     title: "Miscellaneous Services",
     text: [
-      "Bump bot to keep your token on the top on PumpFun and Commentor bot to increase comments on PumpFun and Dexscreener",
-      "Advertise your token on Dexscreener, Sol Trending and other marketing avenues from 1 platform"
+      "Rank and Volume bots to stay on top of DexScreener/Dextools ranking",
+      "Much more to come",
     ],
     date: "May 2023",
     status: "progress",
@@ -274,8 +272,8 @@ export const benefits = [
   },
   {
     id: "1",
-    title: "Referrals",
-    text: "Refer other people and earn passive income from a part of their fees",
+    title: "Best in class - Web UI",
+    text: "The most intuitive way to launch on PumpFun like a Pro. Bye clunky CLI's and TG bots.",
     backgroundUrl: "./src/assets/benefits/card-2.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,

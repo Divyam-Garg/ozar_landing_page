@@ -30,9 +30,9 @@ const SurveyForm = () => {
       });
       // alert('Survey submitted successfully!');
       setResponses({ question1: '', question2: '' });
-			window.open('https://t.me/ozar_community', '_blank', 'noopener,noreferrer');
+			window.open('https://app.ozar.pro', '_blank', 'noopener,noreferrer');
     } catch (error) {
-			window.open('https://t.me/ozar_community', '_blank', 'noopener,noreferrer');
+			window.open('https://app.ozar.pro', '_blank', 'noopener,noreferrer');
       console.error('Error submitting survey: ', error);
       alert('An error occurred while submitting the survey');
     }
@@ -136,7 +136,7 @@ const SurveyForm = () => {
 					</svg>
 					Submit and Join Telegram
 				</button> */}
-				<Button onClick={handleSubmit} type="submit" className="text-lg px-6 py-3 md:text-xl md:px-8 md:py-4" >Submit and Join Telegram</Button>
+				<Button onClick={handleSubmit} type="submit" className="text-lg px-6 py-3 md:text-xl md:px-8 md:py-4" >Submit and Launch App</Button>
 
 			</div>
 		</form>

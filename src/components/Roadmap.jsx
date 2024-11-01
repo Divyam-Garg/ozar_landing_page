@@ -78,8 +78,8 @@ const Roadmap = () => (
 
 
       <div className="flex justify-center mt-12 md:mt-15 xl:mt-20">
-        <Button className="text-lg px-6 py-3 md:text-xl md:px-8 md:py-4" href="https://t.me/ozar_community">
-          Join Telegram
+        <Button className="text-lg px-6 py-3 md:text-xl md:px-8 md:py-4" href="https://app.ozar.pro">
+          Launch App
         </Button>
       </div>
 

@@ -75,8 +75,11 @@ const Header = () => {
         >
           New account
         </a> */}
-        <Button className="hidden lg:flex px-6 py-3 md:text-sm md:px-8 md:py-4" href="https://t.me/ozar_community">
-          Join Telegram
+        <Button className="hidden lg:flex px-6 py-3 mx-2 md:text-sm md:px-8 md:py-4" href="https://ozar.gitbook.io/ozar-docs">
+          Documentation
+        </Button>
+        <Button className="hidden lg:flex px-6 py-3 md:text-sm md:px-8 md:py-4" href="https://app.ozar.pro">
+          Launch App
         </Button>
 
         <Button

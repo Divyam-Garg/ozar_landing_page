@@ -25,9 +25,9 @@ const Hero = () => {
           <h1 className="h1 mb-6">
             {/* The Ultimate Solution to Launching, Bundling, Trading and Marketing your Meme Token {``} */}
             {/* The Ultimate Meme Token Launching, Trading and Marketing Experience with {``} */}
-            The Ultimate Meme Coin Launching Experience with {``}
+            The Ultimate PumpFun Launching Toolkit   {``}
             {/* Explore the Possibilities of&nbsp;AI&nbsp;Chatting with {` `} */}
-            <span className="inline-block relative">
+            {/* <span className="inline-block relative">
               OZAR{" "}
               <img
                 src={curve}
@@ -36,7 +36,7 @@ const Hero = () => {
                 height={28}
                 alt="Curve"
               />
-            </span>
+            </span> */}
           </h1>
           <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
             One stop solution to Launching, Sniping, Trading and Marketing your community token
@@ -44,9 +44,9 @@ const Hero = () => {
             {/* Unleash the power of AI within Brainwave. Upgrade your productivity
             with Brainwave, the open AI chat app. */}
           </p>
-          <Button href="https://t.me/ozar_community" className="text-lg px-6 py-3 md:text-xl md:px-8 md:py-4 ">
+          <Button href="https://app.ozar.pro" className="text-lg px-6 py-3 md:text-xl md:px-8 md:py-4 ">
           {/* <Button href="https://t.me/ozar_suite" white> */}
-            Join Telegram
+            Launch App
           </Button>
         </div>
         <div className="relative max-w-[23rem] mx-auto md:max-w-5xl xl:mb-24">
@@ -67,7 +67,8 @@ const Hero = () => {
 
                 <iframe
                   className="w-full h-full"
-                  src="https://www.youtube.com/embed/L7jcNEjyU48"
+                  src="https://www.youtube.com/embed/gZz1lbaIIrU?si=OAoPj2hndZet5N69"
+                  // src="https://www.youtube.com/embed/L7jcNEjyU48"
                   // src="https://youtu.be/tCs1DGYWIxo?si=db9C18RRFpwOMmOJ"
                   title="YouTube video player"
                   frameBorder="0"

@@ -10,7 +10,7 @@ import SurveyForm from "./SurveyForm";
 const CallToAction = () => (
   <Section className="overflow-hidden" id="callToAction">
     <div className="container md:pb-10">
-      <Heading title="Join Telegram to get Exclusive Whitelisted Access" />
+      <Heading title="Tell us what else you'd like to see!" />
       {/* <Heading title="Products" /> */}
 			<div className="container mx-auto">
         {/* <h2 className="text-3xl font-bold mb-8 text-center">We'd Love Your Feedback</h2> */}
