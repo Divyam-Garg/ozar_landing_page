@@ -3,14 +3,14 @@ import Heading from "./Heading";
 import Section from "./Section";
 import Tagline from "./Tagline";
 import { roadmap } from "../constants";
-import { check2, grid, loading1 } from "../assets";
+import { check2, grid, loading1, buyerConfigSmall, multiWalletTraderSmall, successfulLaunch } from "../assets";
 import { Gradient } from "./design/Roadmap";
 
 const Roadmap = () => (
   <Section className="overflow-hidden" id="products">
     <div className="container md:pb-10">
       {/* <Heading tag="Ready to get started" title="What we’re working on" /> */}
-      <Heading title="Products" />
+      <Heading title="Roadmap" />
 
       <div className="relative grid gap-6 md:grid-cols-2 md:gap-4 md:pb-[7rem]">
         {roadmap.map((item) => {
@@ -34,7 +34,7 @@ const Roadmap = () => (
                   />
                 </div>
                 <div className="relative z-1">
-                  {/* <div className="flex items-center justify-between max-w-[27rem] mb-8 md:mb-20">
+                  <div className="flex items-center justify-between max-w-[27rem] mb-8 md:mb-20">
                     <Tagline>{item.date}</Tagline>
 
                     <div className="flex items-center px-4 py-1 bg-n-1 rounded text-n-8">
@@ -47,18 +47,18 @@ const Roadmap = () => (
                       />
                       <div className="tagline">{status}</div>
                     </div>
-                  </div> */}
+                  </div>
 
                   {/* <div className="mb-1 -my-10 -mx-15"> */}
                   <div className="mb-1 -my-10 -mx-15">
-                    {/* <img
+                    <img
                       // className="w-full"
                       className="w-auto"
                       src={item.imageUrl}
                       width={628}
                       height={40}
                       alt={item.title}
-                    /> */}
+                    />
                   </div>
                   <h4 className="h4 mb-4">{item.title}</h4>
                   {/* <p className="body-2 text-n-4">{item.text}</p> */}

@@ -75,6 +75,9 @@ const Header = () => {
         >
           New account
         </a> */}
+        <Button className="hidden lg:flex px-6 py-3 md:text-sm md:px-8 md:py-4 mr-4" href="https://t.me/ozar_community">
+          Launch App
+        </Button>
         <Button className="hidden lg:flex px-6 py-3 md:text-sm md:px-8 md:py-4" href="https://t.me/ozar_community">
           Join Telegram
         </Button>

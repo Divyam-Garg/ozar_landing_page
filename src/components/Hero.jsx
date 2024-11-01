@@ -25,7 +25,7 @@ const Hero = () => {
           <h1 className="h1 mb-6">
             {/* The Ultimate Solution to Launching, Bundling, Trading and Marketing your Meme Token {``} */}
             {/* The Ultimate Meme Token Launching, Trading and Marketing Experience with {``} */}
-            The Ultimate Meme Coin Launching Experience with {``}
+            PumpFun Bundler with {``}
             {/* Explore the Possibilities of&nbsp;AI&nbsp;Chatting with {` `} */}
             <span className="inline-block relative">
               OZAR{" "}
@@ -39,13 +39,15 @@ const Hero = () => {
             </span>
           </h1>
           <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
-            One stop solution to Launching, Sniping, Trading and Marketing your community token
+            One stop solution - Launch, Snipe, Bundle, Trade and Market your PumpFun token - 25 wallets
 
             {/* Unleash the power of AI within Brainwave. Upgrade your productivity
             with Brainwave, the open AI chat app. */}
           </p>
-          <Button href="https://t.me/ozar_community" className="text-lg px-6 py-3 md:text-xl md:px-8 md:py-4 ">
-          {/* <Button href="https://t.me/ozar_suite" white> */}
+          <Button className="hidden lg:flex px-6 py-3 md:text-sm md:px-8 md:py-4 mr-4" href="https://t.me/ozar_community">
+          Launch App
+          </Button>
+          <Button className="hidden lg:flex px-6 py-3 md:text-sm md:px-8 md:py-4" href="https://t.me/ozar_community">
             Join Telegram
           </Button>
         </div>

@@ -34,6 +34,9 @@ import {
   telegram,
   twitter,
   yourlogo,
+  multiWalletTraderSmall,
+  buyerConfigSmall,
+  successfulLaunch,
 } from "../assets";
 
 export const navigation = [
@@ -78,9 +81,9 @@ export const notificationImages = [notification4, notification3, notification2];
 export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
 
 export const brainwaveServices = [
-  "Photo generating",
-  "Photo enhance",
-  "Seamless Integration",
+  "Launch your token with 25 wallets",
+  "Undetected by bubblemaps",
+  "Manage bought tokens in all 25 wallets easily with the Multi-Wallet Trading Bot",
 ];
 
 export const brainwaveServicesIcons = [
@@ -94,54 +97,55 @@ export const brainwaveServicesIcons = [
 export const roadmap = [
   {
     id: "0",
-    title: "Launch Bundler Snipers",
+    title: "PumpFun Bundle Sniper - Live",
     text: [
-      "Protect your launch from predatory snipers by securing supply at launch",
-      "Launch and Snipe your launch with 24 different wallets instantly on launch",
-     "Launch on Pump.fun, Raydium, Uniswap and more.",
-     "Manage bought tokens easily in all wallets through the swap manager"
-    ],
-    date: "May 2023",
+      // "Protect your launch from predatory snipers by securing supply at launch",
+     "Launch and Snipe your token on PumpFun with 25 different wallets instantly on launch",
+     "Block 0 and organic launch strategies for your token",
+     "Undetected by bubblemaps",
+     "Manage bought tokens in all 25 wallets easily with the Multi-Wallet Trading Bot/Sniper"
+    ], 
+    date: "Sep 2024",
     status: "done",
-    imageUrl: roadmap1,
+    imageUrl: buyerConfigSmall,
     colorful: true,
   },
   {
     id: "1",
-    title: "Rank Boosters",
+    title: "Multi Wallet Trading Bot - Live",
     text: [
-      "Boost your ranking on Dexscreener by adding volume to your token on Raydium and Uniswap",
-      "Rank is boosted by optimising for volume, holders, buy/sell ratio and more",
-      "Volume is added by 1000's of wallets appearing like natural volume"
-    ],
-    date: "May 2023",
-    status: "progress",
-    imageUrl: roadmap2,
-    colorful: true,
-
-  },
-  {
-    id: "2",
-    title: "Swap Manager",
-    text: [
-      "Buy and Sell tokens with upto 24 wallets at once instantly on PumpFun, Raydium, Uniswap etc.",
+      "Bundle Buy and Bundle Sell tokens with upto 25 wallets at once instantly on PumpFun and Raydium",
       "Trade with individual wallets or all wallets at once",
-      "Perfect to accumulate tokens to CTO or hold the floor",
+      "Perfect to accumulate tokens to CTO or manage tokens from a bundled launch",
     ],
-    date: "May 2023",
+    date: "Sep 2024",
     status: "done",
     imageUrl: roadmap3,
     colorful: true,
 
   },
   {
+    id: "2",
+    title: "Rank Boosters - Upcoming",
+    text: [
+      "Boost your ranking on Dexscreener by adding volume to your token on Raydium and Uniswap",
+      "Rank is boosted by optimising for volume, holders, buy/sell ratio and more",
+      "Volume is added by 1000's of wallets appearing like natural volume"
+    ],
+    date: "Oct 2023",
+    status: "progress",
+    imageUrl: roadmap2,
+    colorful: true,
+
+  },
+  {
     id: "3",
-    title: "Miscellaneous Services",
+    title: "Miscellaneous Services - Upcoming",
     text: [
       "Bump bot to keep your token on the top on PumpFun and Commentor bot to increase comments on PumpFun and Dexscreener",
       "Advertise your token on Dexscreener, Sol Trending and other marketing avenues from 1 platform"
     ],
-    date: "May 2023",
+    date: "Nov 2023",
     status: "progress",
     imageUrl: roadmap4,
     colorful: true,

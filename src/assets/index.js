@@ -76,6 +76,13 @@ import instagram from "./socials/instagram.svg";
 import telegram from "./socials/telegram.svg";
 import twitter from "./socials/twitter.svg";
 
+import buyerConfig from "./buyer-config.png";
+import buyerConfigSmall from "./buyer-config-small.png";
+import selectToken from "./select-token.png";
+import multiWalletTrader from "./multi-wallet-trader.png";
+import multiWalletTraderSmall from "./multi-wallet-trader-small.png";
+import successfulLaunch from "./successful-launch.png";
+
 export {
   brainwave,
   check,
@@ -146,4 +153,10 @@ export {
   ozar,
   telegram,
   twitter,
+  buyerConfig,
+  buyerConfigSmall,
+  selectToken,
+  multiWalletTrader,
+  multiWalletTraderSmall,
+  successfulLaunch
 };
